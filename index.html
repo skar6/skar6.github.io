@@ -6,7 +6,7 @@
 	<script type = "text/javascript" src = "quiz.js"></script>
 </head>
 <body>
-<h1>Career Quiz<h1>
+<h1>Career Quiz</h1>
 <form name = "quiz" id="quiz">
 	
 	<div>
@@ -61,54 +61,55 @@
 		<p><input type = "radio" name = "question8" value = "A">A. Yes, I will always work until I finish.</p>
 		<p><input type = "radio" name = "question8" value = "B">B. No, I will only work when I have to.<p>
 	</div>
-		<div>
+	<div>
 		<p>9. Your manager has assigned your group a new project. What role do you take?</p>
 		<p><input type = "radio" name = "question9" value = "A">A. Step up to the plate to become the team leader.</p>
 		<p><input type = "radio" name = "question9" value = "B">B. Offer to contribute to a specfic part.<p>
 		<p><input type = "radio" name = "question9" value = "C">C. Wait for the team leader to assign you a task that they believe you're best suited for.<p>
 	</div>
-	</div>
+	<div>
 		<p>10. A guest speaker comes to your class to talk about something you're deeply interested in. What do you do?</p>
 		<p><input type = "radio" name = "question10" value = "A">A. Ask engaging questions.</p>
 		<p><input type = "radio" name = "question10" value = "B">B. Take notes.<p>
 		<p><input type = "radio" name = "question10" value = "C">C. Listen attentively.<p>
 		<p><input type = "radio" name = "question10" value = "D">D. Be there physically,but not mentally.<p>
 	</div>
-	</div>
+	<div>
 		<p>11. Select the statement that best suits you:</p>
 		<p><input type = "radio" name = "question11" value = "A">A. I always make sure my work is perfect down to the smallest detail.</p>
 		<p><input type = "radio" name = "question11" value = "B">B. I make sure my work is presentable, but don't mind minimal errors.<p>
 		<p><input type = "radio" name = "question11" value = "C">C. I get the work done, but I don't care if there are errors or not.<p>
 	</div>
-	</div>
+	<div>
 		<p>12. In a discussion about the future, what word describes you better?</p>
 		<p><input type = "radio" name = "question12" value = "A">A. Realistic</p>
 		<p><input type = "radio" name = "question12" value = "B">B. Creative<p>
 	</div>
-	</div>
+	<div>
 		<p>13. Your partner and you are planning on doing a passion project together. You come up with an idea you believe is perfect for the project. Your friend however wants to look into more ideas first. What do you do? </p>
 		<p><input type = "radio" name = "question13" value = "A">A. Consider looking into more ideas.</p>
 		<p><input type = "radio" name = "question13" value = "B">B. Stick to your own idea.<p>
 	</div>
-	</div>
+	<div>
 		<p>14. The teacher asks you to talk out homework from two weeks ago. How long does it take for you to find the homework? </p>
 		<p><input type = "radio" name = "question14" value = "A">A. A couple of seconds. I know exactly where it is in my binder.</p>
 		<p><input type = "radio" name = "question14" value = "B">B. A couple of minutes. I know it's in my binder, but I will have to look for it.<p>
 		<p><input type = "radio" name = "question14" value = "C">C. I don't know if I have it. I don't even know where to look for it.<p>
 	</div>
-	</div>
+	<div>
 		<p>15. You pursue a volunteering opportunity to help frontline workers during COVID. However, in order to volunteer, you are required to know how to make a mask. You are told to learn as soon as possible. How long does it take you?</p>
 		<p><input type = "radio" name = "question15" value = "A">A. A few hours</p>
 		<p><input type = "radio" name = "question15" value = "B">B. A couple of days<p>
 		<p><input type = "radio" name = "question15" value = "C">C. A week<p>
 	</div>
 
-	<input type="button" name="" value = "Next Section" onclick = "check()">
+	<input type="button" name="quiz" value = "Next Section" onclick = "check()">
 
 </form>
-<form name = "healthcarequiz" id="healthcarequiz" hidden>
+<form name = "healthcarequiz" id="healthcarequiz" hidden>	
 	<div>
-	<p1>Healthcare<p1>
+		<h2>Healthcare</h2>
+		<p>The healthcare job sector is rapidly expanding as new medical treatments and technologies become available. Another factor contributing to the growth of the health industry is an aging population.</p>
 		<p>1. Are you able to easily empathize with people?</p>
 		<p><input type = "radio" name = "question16" value = "A">A. Yes</p>
 		<p><input type = "radio" name = "question16" value = "B">B. No</p>
@@ -145,23 +146,60 @@
 		<p><input type = "radio" name = "question22" value = "A">A. Yes</p>
 		<p><input type = "radio" name = "question22" value = "B">B. No</p>
 	</div>
-	<input type="button" name="" value = "I'm done!" onclick = "healthcarecheck()">
+	<input type="button" name="healthcare" value = "I'm done!" onclick = "healthcarecheck()">
 </form>
 <form name = "governmentquiz" id="governmentquiz" hidden>
 	<div>
-	<p1>Government<p1>
+	<h2>Government</h2>
+		<p>The local, state and federal government industry is the largest job sector in the United States, employing over two million people. There are many roles that are crucial to the government sector including jobs in education, research, business and finance.</p>
 
-		<p>1. Select the one that best applies to you:</p>
-		<p><input type = "radio" name = "question1" value = "A">A. Daring</p>
-		<p><input type = "radio" name = "question1" value = "B">B. Analytical</p>
+		<p>1. Do you have a clear difference between your work and home life?</p>
+		<p><input type = "radio" name = "question48" value = "A">A. Yes</p>
+		<p><input type = "radio" name = "question48" value = "B">B. No</p>
+	</div>
+	<div>
+		<p>2. Are you able to easily work under pressure?</p>
+		<p><input type = "radio" name = "question49" value = "A">A. Yes</p>
+		<p><input type = "radio" name = "question49" value = "B">B. No</p>
+		<p><input type = "radio" name = "question49" value = "C">C. Sometimes</p>
+	</div>
+	<div>
+		<p>3. Are you a compassionate person?</p>
+		<p><input type = "radio" name = "question50" value = "A">A. Yes</p>
+		<p><input type = "radio" name = "question50" value = "B">B. No</p>
+		<p><input type = "radio" name = "question50" value = "C">C. Sometimes</p>
+	</div>
+	<div>
+		<p>4. Do you find it easy to adapt to new things?</p>
+		<p><input type = "radio" name = "question51" value = "A">A. Yes</p>
+		<p><input type = "radio" name = "question51" value = "B">B. No</p>
+		<p><input type = "radio" name = "question51" value = "C">C. Sometimes</p>
+	</div>
+	<div>
+		<p>5. Are you an organized person?</p>
+		<p><input type = "radio" name = "question52" value = "A">A. Yes</p>
+		<p><input type = "radio" name = "question52" value = "B">B. No</p>
+		<p><input type = "radio" name = "question52" value = "C">C. Sometimes</p>
+	</div>
+	<div>
+		<p>6. Are you good with time management?</p>
+		<p><input type = "radio" name = "question53" value = "A">A. Yes</p>
+		<p><input type = "radio" name = "question53" value = "B">B. No</p>
+		<p><input type = "radio" name = "question53" value = "C">C. Sometimes</p>
+	</div>
+	<div>
+		<p>7. Do you pay a lot of attention to detail?</p>
+		<p><input type = "radio" name = "question54" value = "A">A. Yes</p>
+		<p><input type = "radio" name = "question54" value = "B">B. No</p>
+		<p><input type = "radio" name = "question54" value = "C">C. Sometimes</p>
 	</div>
 
-	<input type="button" name="" value = "I'm done!" onclick = "governmentcheck()">
-
+	<input type="button" name="government" value = "I'm done!" onclick = "governmentcheck()">
 </form>
 <form name = "retailquiz" id="retailquiz" hidden>
 	<div>
-	<p1>Retail<p1>
+	<h2>Retail</h2>
+		<p>As the U.S. economy fluctuates, so does the retail job sector. Greater demand for a retail product will often lead to an increase in open positions. Retail workers are in charge of the planning, operations and customer satisfaction of the industry.</p>
 		<p>1. Do you know more than one language or are planning/willing to learn another?</p>
 		<p><input type = "radio" name = "question35" value = "A">A. Yes</p>
 		<p><input type = "radio" name = "question35" value = "B">B. No</p>
@@ -196,13 +234,13 @@
 		<p>7. Do you take responsibility for all your actions?</p>
 		<p><input type = "radio" name = "question41" value = "A">A. Yes</p>
 		<p><input type = "radio" name = "question41" value = "B">B. No</p>
-	<div>
-	<input type="button" name="" value = "I'm done!" onclick = "retailcheck()">
-
+	</div>
+	<input type="button" name="retail" value = "I'm done!" onclick = "retailcheck()">
 </form>
 <form name = "educationquiz" id="educationquiz" hidden>
 	<div>
-	<p1>Education<p1>
+		<h2>Education</h2>
+		<p>The education job sector is responsible for developing the skills of the nation’s future working individuals. Education is important to the U.S. economy because it develops the future workforce. </p>
 		<p>1. Are you able to handle tough situations on your own?</p>
 		<p><input type = "radio" name = "question42" value = "A">A. Yes</p>
 		<p><input type = "radio" name = "question42" value = "B">B. No</p>
@@ -239,12 +277,13 @@
 		<p><input type = "radio" name = "question47" value = "C">C. Never</p>
 	</div>
 
-	<input type="button" name="" value = "I'm done!" onclick = "educationcheck()">
+	<input type="button" name="education" value = "I'm done!" onclick = "educationcheck()">
 
 </form>
 <form name = "realestatequiz" id="realestatequiz" hidden>
 	<div>
-	<p1>Real Estate<p1>
+		<h2>Real Estate</h2>
+		<p> Real estate development will always be an important job sector because people need places to live. Additionally, as new businesses open, real estate developers will require additional property. The real estate development industry includes more than the buying and selling of real estate property.</p>
 		<p>1. When you need someone to do something for you, are you persistent in reminding them to do it?</p>
 		<p><input type = "radio" name = "question29" value = "A">A. Yes</p>
 		<p><input type = "radio" name = "question29" value = "B">B. No</p>
@@ -278,11 +317,13 @@
 		<p><input type = "radio" name = "question34" value = "C">C. Sometimes</p>
 	</div>
 
-	<input type="button" name="" value = "I'm done!" onclick = "realestatecheck()">
+	<input type="button" name="realestate" value = "I'm done!" onclick = "realestatecheck()">
 </form>
+
 <form name = "informationtechquiz" id="informationtechquiz" hidden>
 	<div>
-	<p1>Information Technology<p1>
+	<h2>Information Technology</h2>
+		<p>The information technology job sector has steadily increased as technology becomes a more integral part of the economy. Technology has also become a part of other important job sectors including health, retail, education and professional services. </p>
 		<p>1. Are you good at adapting and learning new things?</p>
 		<p><input type = "radio" name = "question23" value = "A">A. Yes</p>
 		<p><input type = "radio" name = "question23" value = "B">B. No</p>
@@ -318,7 +359,7 @@
 	</div>
 
 
-	<input type="button" name="" value = "I'm done!" onclick = "informationtechcheck()">
+	<input type="button" name="informationtech" value = "I'm done!" onclick = "informationtechcheck()">
 </form>
 </body>
 </html>

@@ -2,7 +2,7 @@ body{
 	background-color: white;
 }
 h1{
-	color:darkgoldenrod;
+	color: darkslategray;
 	font-family: palatino;
 }
 form{
@@ -10,9 +10,8 @@ form{
 	font-family: times new roman;
 	font-size: 16px
 }
-p1{
-	color:maroon;
-	font-family: palatino;
+h2{
+	color:indigo;
 }
 p{
 	color:black;
